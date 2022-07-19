@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Medium Clone Challenge
 
-## Getting Started
+How's it going everyone! This here is a Medium Clone Challenge! I was tasked to create a semi-clone of the Medium website with full post functionality. This build utilized NextJS' framework for a much smoother experience.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Core Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Semi functional clone of Medium (a publishing platform)
+- Built using JavaScript and NextJS
+- Built a login authentication flow with Firebase Auth using NextAuth
+- Utilized Firebase's Firestore database for storing articles created from users
+- Wrote robust code with JS and NextJS
+- Leveraged Next.js Server Side Rendering to get a faster page load time
+- With all that .. I hope you enjoy!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Preview:
+<p align="center" width="100">
+<img src="/static/prev.png" width="650" height="550"/>
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Dependencies used
 
-To learn more about Next.js, take a look at the following resources:
+1. [tailwind](https://tailwindcss.com/)
+2. [next-auth](https://next-auth.js.org/)
+3. [firebase](https://firebase.google.com/)
+4. [NextJS](https://nextjs.org/docs)
+5. [react-icons](https://react-icons.github.io/react-icons/)
+6. [react-modal](https://www.npmjs.com/package/react-modal)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
